@@ -1,0 +1,20 @@
+﻿{
+    "revision":  "87416418657359cb625c412a48b6e1d6d41c29bd",
+    "acquisition":  "git clone --depth 1 --filter=blob:none --sparse https://github.com/tesseract-ocr/tessdata_fast.git",
+    "downloaded_at_utc":  "2026-10-20T10:54:29.7120279+00:00",
+    "languages":  [
+                      {
+                          "language":  "eng",
+                          "source_url":  "https://github.com/tesseract-ocr/tessdata_fast/blob/87416418657359cb625c412a48b6e1d6d41c29bd/eng.traineddata",
+                          "sha256":  "7d4322bd2a7749724879683fc3912cb542f19906c83bcc1a52132556427170b2",
+                          "bytes":  4113088
+                      },
+                      {
+                          "language":  "ara",
+                          "source_url":  "https://github.com/tesseract-ocr/tessdata_fast/blob/87416418657359cb625c412a48b6e1d6d41c29bd/ara.traineddata",
+                          "sha256":  "e3206d3dc87fd50c24a0fb9f01838615911d25168f4e64415244b67d2bb3e729",
+                          "bytes":  1432056
+                      }
+                  ],
+    "osd":  "Not used; no automatic orientation detection"
+}

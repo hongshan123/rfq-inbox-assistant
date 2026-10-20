@@ -1,0 +1,7 @@
+﻿{
+    "engine_path":  "C:\\Program Files\\Tesseract-OCR\\tesseract.exe",
+    "version":  "tesseract v5.5.3.20260724",
+    "installation_method":  "winget install --id tesseract-ocr.tesseract --exact --source winget",
+    "installer_url":  "https://github.com/tesseract-ocr/tesseract/releases/download/5.5.3/tesseract-ocr-w64-setup-5.5.3.20260724.exe",
+    "installed_at_utc":  "2026-10-20T10:42:23.4010834+00:00"
+}

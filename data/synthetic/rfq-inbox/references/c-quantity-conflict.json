@@ -1,0 +1,34 @@
+{
+  "synthetic": true,
+  "purpose": "functional demonstration, not an independent accuracy benchmark",
+  "scenario": "Email 100 versus Excel 120",
+  "facts": {
+    "customer_name": "Banksia Precision Demo Pty Ltd",
+    "contact_name": "Alex Morgan",
+    "contact_email": "alex@banksia-demo.example.com",
+    "quote_deadline": "2026-11-05",
+    "requested_delivery_date": "2026-12-01",
+    "delivery_location": "Geelong VIC, Australia",
+    "part_number": "0007-A",
+    "revision": "B",
+    "description": "Machined spacer plate",
+    "material": "316 stainless steel",
+    "quantity": 100,
+    "unit": "EA",
+    "surface_finish": "Bead blasted",
+    "rfq_reference": "SYN-C-001"
+  },
+  "email_quantity": 100,
+  "excel_quantity": 120,
+  "expected_missing": [],
+  "expected_conflicts": [
+    {
+      "part_number": "0007-A",
+      "field": "quantity",
+      "values": [
+        100,
+        120
+      ]
+    }
+  ]
+}

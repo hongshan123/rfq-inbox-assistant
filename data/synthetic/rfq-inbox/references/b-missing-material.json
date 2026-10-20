@@ -1,0 +1,27 @@
+{
+  "synthetic": true,
+  "purpose": "functional demonstration, not an independent accuracy benchmark",
+  "scenario": "Material is genuinely omitted",
+  "facts": {
+    "customer_name": "Banksia Precision Demo Pty Ltd",
+    "contact_name": "Alex Morgan",
+    "contact_email": "alex@banksia-demo.example.com",
+    "quote_deadline": "2026-11-05",
+    "requested_delivery_date": "2026-12-01",
+    "delivery_location": "Geelong VIC, Australia",
+    "part_number": "0007-A",
+    "revision": "B",
+    "description": "Machined spacer plate",
+    "material": null,
+    "quantity": 100,
+    "unit": "EA",
+    "surface_finish": "Bead blasted",
+    "rfq_reference": "SYN-B-001"
+  },
+  "email_quantity": 100,
+  "excel_quantity": 100,
+  "expected_missing": [
+    "material"
+  ],
+  "expected_conflicts": []
+}

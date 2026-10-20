@@ -1,0 +1,26 @@
+.venv-rfq-data/
+__pycache__/
+*.pyc
+.env
+.env.*
+!.env.example
+.streamlit/secrets.toml
+data/local-inbox/
+tools/tessdata-source/
+
+# Locally downloaded reference documents and their extracted copies.
+data/raw/
+data/processed/
+data/*.pdf
+data/*.xlsx
+data/*.zip
+
+# Local credentials, environments and transient output.
+.venv/
+venv/
+*.pem
+*.key
+*.log
+*.tmp
+*.part
+.DS_Store

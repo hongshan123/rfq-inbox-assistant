@@ -1,0 +1,10 @@
+{
+  "d148f4d642b5eca591ceaa69fcb80a8b30300acf04f576c7099d6c8a15159e32:20": {
+    "page_type": "text_scan",
+    "note": "Rendered page 20 is a vehicle licence receipt with printed fields and handwriting, not a trailer photograph. English OCR and number review required."
+  },
+  "d148f4d642b5eca591ceaa69fcb80a8b30300acf04f576c7099d6c8a15159e32:21": {
+    "page_type": "photo",
+    "note": "Rendered page 21 contains trailer photographs. SHIRE OF NARROGIN lettering is visible; the plate is partly cropped. Native caption and raw photo OCR are retained. Inspect the image manually; do not infer a complete plate number or current procurement details."
+  }
+}

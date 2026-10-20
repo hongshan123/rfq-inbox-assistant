@@ -1,0 +1,13 @@
+* text=auto eol=lf
+*.py text eol=lf
+*.md text eol=lf
+*.json text eol=lf
+*.toml text eol=lf
+*.txt text eol=lf
+*.example text eol=lf
+*.pdf binary
+*.png binary
+*.xlsx binary
+*.zip binary
+*.traineddata binary
+*.eml -text whitespace=cr-at-eol
